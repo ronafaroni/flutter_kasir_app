@@ -6,6 +6,7 @@ class DateTimeHelper {
     return DateFormat(format, 'id').format(dateTime);
   }
 
+  // Fungsi untuk mengubah string menjadi DateTime
   static String formatDateTimeFromString(
       {required String dateTimeString, String format = 'd MM yyyy'}) {
     if (dateTimeString.isEmpty) {
